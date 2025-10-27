@@ -8,11 +8,11 @@ import dedent from 'dedent';
 import { IncomingMessage } from 'http';
 import { KnownError } from './error';
 import { streamToIterable } from './stream-to-iterable';
-// import { detectShell } from './os-detect';
+import { detectShell } from './os-detect';
 import type { AxiosError } from 'axios';
 import { streamToString } from './stream-to-string';
 import './replace-all-polyfill';
-// import i18n from './i18n';
+import i18n from './i18n';
 import { stripRegexPatterns } from './strip-regex-patterns';
 import readline from 'readline';
 
