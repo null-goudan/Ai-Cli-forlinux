@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/null-goudan/Ai-Cli-forlinux.git"
+    "url": "https://github.com/null-goudan/Ai-Cli-forlinux.git"
   },
   "author": "null-goudan",
   "license": "ISC",
