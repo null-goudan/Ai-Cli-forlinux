@@ -16,22 +16,43 @@
     "url": "https://github.com/null-goudan/Ai-Cli-forlinux.git"
   },
   "author": "null-goudan",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/null-goudan/Ai-Cli-forlinux/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "ai-cli": "./dist/cli.mjs",
+    "ai": "./dist/cli.mjs"
   },
   "homepage": "https://github.com/null-goudan/Ai-Cli-forlinux#readme",
   "dependencies": {
     "@clack/core": "latest",
     "@clack/prompts": "latest",
-    "@types/node": "^18.15.11",
-    "axios": "^1.12.2",
-    "build": "^0.1.4",
-    "cleye": "^1.3.4",
-    "dedent": "^1.7.0",
-    "dotenv": "^17.2.3",
-    "kolorist": "^1.8.0",
-    "openai": "^3.2.1",
-    "readline": "^1.3.0"
+    "@dqbd/tiktoken": "^1.0.2",
+    "@nexssp/os": "^2.0.35",
+    "axios": "^1.3.5",
+    "cleye": "^1.3.2",
+    "clipboardy": "^2.3.0",
+    "dedent": "^0.7.0",
+    "execa": "^7.1.1",
+    "i18next": "^22.4.15",
+    "ini": "^4.0.0",
+    "kolorist": "^1.7.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/dedent": "^0.7.0",
+    "@types/ini": "^1.3.31",
+    "@types/node": "^18.19.130",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "jiti": "^1.17.0",
+    "pkgroll": "^1.9.0",
+    "prettier": "^2.8.8",
+    "typescript": "^4.9.5"
   }
 }
