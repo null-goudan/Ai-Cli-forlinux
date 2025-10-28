@@ -1,4 +1,6 @@
 ## Ai-Cli-forlinux
+<img width="1716" height="490" alt="无标题" src="https://github.com/user-attachments/assets/cae51d7f-5ad2-4d43-b287-93caeb2f7daf" />
+
 ### 灵感
 灵感来源于 Copilot CLI https://github.com/features/copilot/cli
 ### 介绍
